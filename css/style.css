@@ -230,3 +230,63 @@ header
         right: 100%;
     }
 }
+
+
+/***** MAIN *****/
+
+/*** MAIN_MEMBER ***/
+
+
+.main_member
+{
+    font-family: 'Lato-Bold', sans-serif;
+
+    display: flex;
+    float: initial;
+    flex-direction: row;
+    /* background-size: 100%; */
+
+    width: 100%;
+    /* background-image: url(../assets/images/login-bg.jpg); */
+
+    background: url(../assets/images/login-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.btn.btn.register:hover
+{
+    color: rgb(33, 66, 74);
+}
+
+.btn.btn.btn.login:hover
+{
+    color: rgb(47, 172, 108);
+}
+
+.btn
+{
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    margin: 0 auto;
+    padding: 35px 0;
+
+    cursor: pointer;
+
+    color: rgb(255,255,255);
+    border: none;
+    background-color: inherit;
+}
+
+.btn.login
+{
+    /* background-color: rgb(33, 66, 74); */
+    width: 50%;
+}
+
+.btn.register
+{
+    /* background-color: rgb(47, 172, 108); */
+    width: 50%;
+}
