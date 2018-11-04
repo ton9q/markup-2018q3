@@ -415,6 +415,11 @@ header
     font-size: 1.3rem;
 }
 
+.table-domains tbody tr td:hover
+{
+    color: rgb(0, 0, 0);
+}
+
 .table-domains tbody tr
 {
     display: flex;
@@ -1032,6 +1037,13 @@ header
     max-width: 20%;
 
     text-align: center;
+
+    transition: all 1s;
+}
+
+.function:hover
+{
+    background-color: rgba(202, 202, 202, 0.247); 
 }
 
 .function img
@@ -1247,6 +1259,17 @@ footer
 .contacts-area-3 > div
 {
     margin: 7px 0;
+}
+
+.contacts-area-3 a
+{
+    color: rgb(104,104,104);
+}
+
+.contacts-area-3 a:hover
+{
+    color: rgb(255,255,255);
+    border-bottom: 1px solid rgb(255,255,255);
 }
 
 @media screen and (max-width: 1200px)
