@@ -511,3 +511,219 @@ header
         font-size: .9rem;
     }
 }
+
+
+/* MAIN PACKAGES */
+
+
+.main_packages
+{
+    background: url(../assets/images/packages-bg.jpg) 50% no-repeat;
+    background-size: cover;
+}
+
+.packages
+{
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.package
+{
+    font-size: 14px;
+
+    width: 185px;
+    margin: 73px 22px;
+
+    border: rgb(46,46,48);
+    border: 1px solid rgba(46,46,48,.1);
+    background: rgb(255,255,255);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .06);
+}
+
+.package:first-child
+{
+    border-top: 3px solid rgb(249,212,35);
+}
+
+.package:nth-child(2)
+{
+    border-top: 3px solid rgb(127,140,141);
+}
+
+.package:nth-child(3)
+{
+    border-top: 3px solid rgb(248,95,64);
+}
+
+.package:last-child
+{
+    border-top: 3px solid rgb(26,188,156);
+}
+
+.package .property span
+{
+    font-weight: bold;
+}
+
+.package:first-child .property span
+{
+    color: rgb(249,212,35);
+}
+
+.package:nth-child(2) .property span
+{
+    color: rgb(127,140,141);
+}
+
+.package:nth-child(3) .property span
+{
+    color: rgb(248,95,64);
+}
+
+.package:last-child .property span
+{
+    color: rgb(26,188,156);
+}
+
+.package .icon
+{
+    display: block;
+
+    margin: 0 auto;
+    margin-top: 26px;
+
+    cursor: pointer;
+}
+
+.package h4,
+.package a
+{
+    font-family: 'Lato-Bold', sans-serif;
+}
+
+.package .name
+{
+    margin: 16px 0;
+
+    text-align: center;
+}
+
+.package .content
+{
+    margin: 16px 20px;
+
+    border-top: 1px solid rgb(46,46,48,.1);
+    border-bottom: 1px solid rgb(46,46,48,.1);
+}
+
+.package p
+{
+    padding-top: 16px;
+
+    color: rgb(202,202,202);
+}
+
+.package p:last-child
+{
+    padding-bottom: 16px;
+}
+
+.package .price
+{
+    padding: 0;
+
+    text-align: center;
+}
+
+.price p
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    display: block;
+
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 3px;
+
+    color: rgb(0, 0, 0);
+}
+
+.package:first-child .price p
+{
+    border-bottom: 1.5px solid rgb(249,212,35);
+}
+
+.package:nth-child(2) .price p
+{
+    border-bottom: 1.5px solid rgb(127,140,141);
+}
+
+.package:nth-child(3) .price p
+{
+    border-bottom: 1.5px solid rgb(248,95,64);
+}
+
+.package:last-child .price p
+{
+    border-bottom: 1.5px solid rgb(26,188,156);
+}
+
+.property
+{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.package a
+{
+    display: block;
+
+    margin-bottom: 28px;
+    padding-top: 15px;
+
+    color: rgb(0,0,0);
+}
+
+.package span
+{
+    text-align: right;
+}
+
+.package span:first-of-type
+{
+    font-size: 1rem;
+
+    vertical-align: top;
+}
+
+.package span:last-of-type
+{
+    font-size: .9rem;
+
+    color: rgb(214, 214, 214);
+}
+
+.package:first-child a:hover
+{
+    color: rgb(249,212,35);
+}
+
+.package:nth-child(2) a:hover
+{
+    color: rgb(127,140,141);
+}
+
+.package:nth-child(3) a:hover
+{
+    color: rgb(248,95,64);
+}
+
+.package:last-child a:hover
+{
+    color: rgb(26,188,156);
+}
