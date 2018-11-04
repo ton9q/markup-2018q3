@@ -727,3 +727,164 @@ header
 {
     color: rgb(26,188,156);
 }
+
+
+/*** MAIN ABOUT ***/
+
+
+.main_about
+{
+    display: flex;
+
+    width: 65%;
+    height: 290px;
+    margin: auto;
+
+    border-top: 1px dashed rgb(46,46,48,.1);
+
+    align-items: center;
+}
+
+.about_left
+{
+    border-right: 1px dashed rgb(46,46,48,.1);
+}
+
+.about_left h1
+{
+    font-family: 'Arial', sans-serif;
+}
+
+.about_left h1,
+.about
+{
+    font-size: 1.8rem;
+}
+
+.about_left h1 > span
+{
+    font-size: 2.2rem;
+}
+
+.about_left p
+{
+    font-size: 12px;
+
+    width: 85%;
+    margin-top: 25px;
+
+    color: rgb(168,168,168);
+}
+
+.our-team
+{
+    display: flex;
+
+    text-align-last: center;
+}
+
+.card
+{
+    margin: 35px;
+}
+
+.card p,
+.card h3
+{
+    font-family: 'Lato-Semibold', sans-serif;
+    font-weight: bold;
+
+    padding: 3px;
+}
+
+.card a
+{
+    padding: 5px;
+}
+
+.position
+{
+    color: rgb(168,168,168);
+}
+
+.card .photo
+{
+    width: 80px;
+    height: 80px;
+
+    border: 4px solid rgb(229,229,229);
+    border-radius: 50%;
+}
+
+.card img.photo
+{
+    transition: all .2s;
+}
+
+.card img.photo:hover
+{
+    cursor: pointer;
+}
+
+.card img.photo:active
+{
+    transform: rotateY(360deg);
+}
+
+.contacts
+{
+    display: flex;
+
+    justify-content: center;
+}
+
+.contacts a:last-child
+{
+    display: block;
+
+    transform: rotateZ(90deg);
+}
+
+.contacts a
+{
+    color: rgb(202,202,202);
+}
+
+.contacts a:hover
+{
+    color: rgb(0,0,0);
+}
+
+@media screen and (max-width: 979px)
+{
+    .main_about
+    {
+        display: flex;
+        flex-direction: column;
+
+        width: 80%;
+        height: 320px;
+
+        text-align: center;
+    }
+
+    .about_left p
+    {
+        width: 100%;
+    }
+
+    .about_left
+    {
+        margin: 10px auto;
+
+        border-right: 0;
+    }
+}
+
+@media screen and (max-width: 576px)
+{
+    .card
+    {
+        margin: 5px;
+    }
+}
